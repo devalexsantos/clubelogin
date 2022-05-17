@@ -1,4 +1,5 @@
 import { ArrowUpRight } from "phosphor-react";
+import Logo from "./logo-white-web.svg";
 
 function App() {
   return (
@@ -12,10 +13,7 @@ function App() {
           </a>
         </div>
         <div className="flex flex-col items-center justify-center pt-[10vh]">
-          <img
-            src="/assets/logo-white-web.svg"
-            className="w-[200px] md:w-[350px]"
-          />
+          <img src={Logo} className="w-[200px] md:w-[350px]" />
           <p className="text-2xl text-center p-4">
             Cadastre-se no <strong>Clube Login</strong> preenchendo as
             informações abaixo:
